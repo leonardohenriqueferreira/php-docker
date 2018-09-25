@@ -11,5 +11,5 @@ RUN apt-get install -y git
 # COMPOSER
 COPY --from=composer:1.7 /usr/bin/composer /usr/bin/composer
 
-# PORTAS
+# PORTS
 EXPOSE 80
