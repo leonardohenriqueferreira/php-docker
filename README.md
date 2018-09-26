@@ -2,9 +2,14 @@
 
 # PHP Docker
 
-## Pull Image:
+#### Pull Image:
 ```
 $ docker pull leonardoferreira/php-docker
+```
+
+#### Run Image:
+```
+$ docker run -d -p 80:80 leonardoferreira/php-docker
 ```
 
 ## Authors
