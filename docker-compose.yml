@@ -1,0 +1,7 @@
+php-docker:
+  image: leonardoferreira/php-docker
+  restart: always
+  volumes: 
+    - .:/var/www/html
+  ports:
+    - "80:80"
