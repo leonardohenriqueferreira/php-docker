@@ -12,6 +12,16 @@ $ docker pull leonardoferreira/php-docker
 $ docker run -d -p 80:80 leonardoferreira/php-docker
 ```
 
+#### Run Image with docker-compose:
+```
+$ docker-compose up -d
+```
+
+#### Build Image:
+```
+$ docker build -t php-docker .
+```
+
 ## Authors
 
 * **[Leonardo Henrique Ferreira](https://github.com/leonardohenriqueferreira)**
