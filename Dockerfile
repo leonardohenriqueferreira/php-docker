@@ -15,5 +15,8 @@ RUN apt-get install -y git
 # COMPOSER
 COPY --from=composer:1.7 /usr/bin/composer /usr/bin/composer
 
+# LARAVEL
+RUN composer global require laravel/installer
+
 # PORTS
 EXPOSE 80
